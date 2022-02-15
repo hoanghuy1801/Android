@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40C523"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Các kiểu lập trình sự kiện"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số A"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/idsoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Số B"
+                android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/idsob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/KQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40C523"
+        android:textSize="30dp" ></TextView>
+
+
+    <Button
+        android:id="@+id/idbtTong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Tổng 2 số"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#7CA69F9F"></Button>
+    <Button
+        android:id="@+id/idbtHieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Hiệu 2 số"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#7CA69F9F"></Button>
+    <Button
+        android:id="@+id/idbtTich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Tích 2 số"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#7CA69F9F"></Button>
+    <Button
+        android:id="@+id/idbtThuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Thương 2 số"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#7CA69F9F"></Button>
+    <Button
+        android:id="@+id/idbtUoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="ƯỚC số chung lớn nhất "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#7CA69F9F"></Button>
+
+    <Button
+        android:id="@+id/idbtExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Thoát chương trình"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        app:backgroundTint="#7CA69F9F"></Button>
+
+
+</LinearLayout>
